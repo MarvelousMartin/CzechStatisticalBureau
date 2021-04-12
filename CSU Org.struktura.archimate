@@ -10,10 +10,19 @@
     <element xsi:type="archimate:BusinessActor" name="Podnikatel" id="id-716af4106a544fa5a9674170ebf0af5f"/>
     <element xsi:type="archimate:BusinessActor" name="Turista" id="id-9c13cf22441849359391cc4f541302bd"/>
     <element xsi:type="archimate:BusinessProcess" name="zjistit info" id="id-4b849c64bcec4e1d9bfc57e1fb1ef558"/>
-    <element xsi:type="archimate:BusinessActor" name="Předseda ČSÚ" id="id-35f613f2881346b9abb5bce3813a1b83"/>
-    <element xsi:type="archimate:BusinessActor" name="Místopředseda ČSÚ" id="id-8f68abd4b84242dbb24112e5c00f5d09"/>
+    <element xsi:type="archimate:BusinessActor" name="Předseda ČSÚ" id="id-35f613f2881346b9abb5bce3813a1b83">
+      <documentation>Jmenován prezidentem ČR.&#xD;
+&#xD;
+Profesně se zabývá oblastí národních účtů. Podílel se na implementaci evropských standardů národního účetnictví v rámci ČSÚ před vstupem ČR do EU. Ve své vědecké činnosti se orientuje na zkoumání role ekonomických struktur v procesu přechodu od nákladové ke kvalitativně zaměřené konkurenční výhodě a rovněž na analýzu makroekonomických a strukturálních dopadů globalizace ekonomických toků. </documentation>
+    </element>
+    <element xsi:type="archimate:BusinessActor" name="Místopředseda ČSÚ" id="id-8f68abd4b84242dbb24112e5c00f5d09">
+      <documentation>Profesně se zabývá oblastí makroekonomické statistiky a národního účetnictví. Spolupracoval na zavádění standardů národních účtů ESA 1995 a ESA 2010 nejprve v oblasti nefinančních aktiv a modelů životnosti, následně pak problematice input-output tabulek.</documentation>
+    </element>
     <element xsi:type="archimate:BusinessActor" id="id-1a35855b218449999921e2c903c9629e"/>
-    <element xsi:type="archimate:BusinessActor" name="1. místopředsedkyně ČSÚ" id="id-9f2a3d8e463e414f9b4259a4a52a31bc"/>
+    <element xsi:type="archimate:BusinessActor" name="1. místopředsedkyně ČSÚ" id="id-9f2a3d8e463e414f9b4259a4a52a31bc">
+      <documentation>Zaměřuje se především na problematiku voleb a zpracování statistických zjišťování. Procesního a projektového řízení, tvorbu strategických dokumentů a koncepcí. Je odborníkem na dotační management.&#xD;
+Je členem Oponentní skupiny pro vytvoření jednotného metodického prostředí fondů EU v ČR, Státní volební komise, Rady vlády pro informační společnost.</documentation>
+    </element>
     <element xsi:type="archimate:BusinessActor" name="Odbor Kancelář předsedy" id="id-c93e2da2c04b4c888a4332897ffea2a7"/>
     <element xsi:type="archimate:BusinessActor" name="Odbor bezpečnosti a krizového řízení" id="id-1463b82edcaa4142b7985d8158695f78"/>
     <element xsi:type="archimate:BusinessActor" name="Odbor personalistiky a mezd" id="id-a859c0777fd84b46a29b628a0ddf0d33"/>
@@ -48,7 +57,16 @@
     <element xsi:type="archimate:BusinessActor" name="Odbor infrastruktury IT" id="id-5cfba28d8952485bb6dd9d0aba773eb2"/>
     <element xsi:type="archimate:BusinessActor" name="Odbor podpory IS a aplikací" id="id-10e576b216aa475588f7bfc9ef2ae518"/>
     <element xsi:type="archimate:BusinessActor" name="Odbor informačních služeb" id="id-da5adc8cf8f54f92aa55f6ff81dc0edb"/>
-    <element xsi:type="archimate:BusinessActor" name="ČSÚ" id="id-af1a793726f647b1ab42113c8ecc0b62"/>
+    <element xsi:type="archimate:BusinessActor" name="ČSÚ" id="id-af1a793726f647b1ab42113c8ecc0b62">
+      <documentation>Web ČSÚ zpracovává statistické informace podle zákona o statistické službě. Zákon č. 89/1995 Sb., o státní statistické službě.&#xD;
+&#xD;
+Aktivity ČSÚ - vytváření anket, vytváření statistik ze současných a minulých akcí, spolupráce s Evropským statistickým systémem a dalšími institucemi.&#xD;
+&#xD;
+GDPR - informace o zpracování a ochraně osobních údajů dle nařízení EP 2016/679 pro uživatele webu, respondenty, uchazeče o zaměstnání, příjemce a uživatele služeb.&#xD;
+&#xD;
+Data - od 18. století po současnost&#xD;
+</documentation>
+    </element>
     <element xsi:type="archimate:BusinessActor" name="Oddělení projektového řízení" id="id-fed7c5a0b2494429af1bbb25c701eb0b"/>
     <element xsi:type="archimate:BusinessActor" name="Oddělení rozpočtu" id="id-f665c99141bf4610b7edf4b30cc8fdc1"/>
     <element xsi:type="archimate:BusinessActor" name="Oddělení finanční účtárny" id="id-f85442ac5dae4f06bafb6baef9185b65"/>
@@ -315,6 +333,12 @@
     <element xsi:type="archimate:BusinessActor" name="Oddělení terénních zjišťování" id="id-13aaa78c51d04a17aec263fb17e9b977"/>
     <element xsi:type="archimate:BusinessActor" name="Oddělení SLDB" id="id-c367799a1f124042912d22c3d0145b4f"/>
     <element xsi:type="archimate:BusinessActor" name="Oddělení správy registrů" id="id-0877735a2fc74175b2d0c50ad6fe8609"/>
+    <element xsi:type="archimate:BusinessActor" id="id-60561c42e9054ed8992f9553478ee045"/>
+    <element xsi:type="archimate:BusinessActor" name="Česká statistická rada" id="id-a0465a65285349f6bd4e71a3147fc3e1">
+      <documentation>Český statistický úřad zřizuje jako svůj poradní orgán Českou statistickou radu podle § 6 zákona č. 89/1995 Sb., o státní statistické službě. V jejím čele stojí předseda Českého statistického úřadu. Členové rady jsou jmenováni z řad odborníků statistické teorie a praxe. Rada má nejméně 11 a nejvíce 25 členů. Rada projednává program statistických zjišťování, její další úkoly a způsob práce upravuje její statut, který vydává předseda Českého statistického úřadu.&#xD;
+&#xD;
+</documentation>
+    </element>
   </folder>
   <folder name="Application" id="id-8abbca18c5b14a2d8b332c2dfab0fd7f" type="application">
     <element xsi:type="archimate:DataObject" name="WEB" id="id-543607938df54768957febcbcde5262b"/>
@@ -550,6 +574,8 @@
     <element xsi:type="archimate:AggregationRelationship" id="id-76bd18045b734a82955eba590fb31372" source="id-9f2a3d8e463e414f9b4259a4a52a31bc" target="id-f2113077e0f642a18b14c27501b82f2c"/>
     <element xsi:type="archimate:AggregationRelationship" id="id-e191b34ee5e74f4186aa0920e4b9d80b" source="id-9f2a3d8e463e414f9b4259a4a52a31bc" target="id-f6afca6be4f24228acb4440960cfb3b3"/>
     <element xsi:type="archimate:AggregationRelationship" id="id-7c4eab6972ff4d2e8d41ef7e5ad96cd5" source="id-9f2a3d8e463e414f9b4259a4a52a31bc" target="id-2e0aba6be87a44ad869bc4a0dc29436e"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-548bd8cc19164327be88b708e3505afb" source="id-a0465a65285349f6bd4e71a3147fc3e1" target="id-af1a793726f647b1ab42113c8ecc0b62"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-3615690d6619489c989696503797f3c4" source="id-35f613f2881346b9abb5bce3813a1b83" target="id-548bd8cc19164327be88b708e3505afb"/>
   </folder>
   <folder name="Views" id="id-69d80297163543f4ae45faf0e1cf2134" type="diagrams">
     <folder name="AS-IS" id="id-e729b59d9aed4c32a641c24663aff999">
@@ -581,6 +607,7 @@
           <sourceConnection xsi:type="archimate:Connection" id="id-7d5b5404b2234ffcbf40c85d038cfe70" source="id-ec50749baeab4b28b8f2a8c689d24926" target="id-e49395f455a0425f835bdfdfb19cbde2" archimateRelationship="id-d2a75a6b8a864e96b2ff6e88895aa335">
             <bendpoint startX="8832" startY="-3" endX="-2" endY="-57"/>
           </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="id-5bad6c2211b64198a4fa3a087bdeb5eb" source="id-ec50749baeab4b28b8f2a8c689d24926" target="id-15363fc0a6a94805bf066d73339097d2" archimateRelationship="id-3615690d6619489c989696503797f3c4"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-1e22c636f17e4ee7b5c23157938a7962" targetConnections="id-6826ae2f7aef4160a163f7ae7c14e14e" fillColor="#ff8080" textPosition="1" archimateElement="id-8f68abd4b84242dbb24112e5c00f5d09">
           <bounds x="5688" y="126" width="120" height="55"/>
@@ -912,7 +939,7 @@
             <bendpoint startX="192" startY="15" endY="-69"/>
           </sourceConnection>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-cc470e5b54f3411e8bda750254d6edb3" font="1|Segoe UI|12.0|0|WINDOWS|1|-16|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI" fillColor="#0080ff" textPosition="1" archimateElement="id-af1a793726f647b1ab42113c8ecc0b62">
+        <child xsi:type="archimate:DiagramObject" id="id-cc470e5b54f3411e8bda750254d6edb3" targetConnections="id-15363fc0a6a94805bf066d73339097d2" font="1|Segoe UI|12.0|0|WINDOWS|1|-16|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI" fillColor="#0080ff" textPosition="1" archimateElement="id-af1a793726f647b1ab42113c8ecc0b62">
           <bounds x="384" width="120" height="55"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-3b978f2ca2094296b87c8c3e43c72bf4" source="id-cc470e5b54f3411e8bda750254d6edb3" target="id-ec50749baeab4b28b8f2a8c689d24926" archimateRelationship="id-d192cda8ef024d58bb975ee3b14158fb"/>
         </child>
@@ -1545,6 +1572,10 @@
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-e18c3a4cb7b84a34b4435013fd68f06c" targetConnections="id-d7411898460c453e8d53ece81521d139" textPosition="1" archimateElement="id-0877735a2fc74175b2d0c50ad6fe8609">
           <bounds x="660" y="770" width="118" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-ea42d3a9ccf346aca6b304d6ec39ae20" textPosition="1" archimateElement="id-a0465a65285349f6bd4e71a3147fc3e1">
+          <bounds x="746" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-15363fc0a6a94805bf066d73339097d2" targetConnections="id-5bad6c2211b64198a4fa3a087bdeb5eb" source="id-ea42d3a9ccf346aca6b304d6ec39ae20" target="id-cc470e5b54f3411e8bda750254d6edb3" archimateRelationship="id-548bd8cc19164327be88b708e3505afb"/>
         </child>
       </element>
     </folder>
