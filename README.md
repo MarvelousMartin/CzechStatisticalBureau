@@ -1,5 +1,4 @@
-This repository is Czech-based, sorry for misunderstanding.
-#
+**This repository is Czech-language-based, sorry for misunderstanding.**
 
 # Český statistický úřad
 
